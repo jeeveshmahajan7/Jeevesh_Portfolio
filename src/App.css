@@ -1,0 +1,73 @@
+html,
+body {
+  background-color: black !important;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  padding-top: 70px; /* adjust based on navbar height to prevent hiding content behind it */
+}
+
+#root {
+  color: whitesmoke;
+}
+
+/* Mobile dropdown styling */
+.nav-dropdown {
+  background-color: #0d1117 !important; /* deep navy / dark grey */
+  border: 1px solid #30363d !important; /* subtle border */
+  border-radius: 16px !important;
+  min-width: 180px;
+  padding: 1rem !important;
+}
+
+/* Dropdown text */
+.nav-dropdown .dropdown-item {
+  color: #c9d1d9 !important; /* soft grey like GitHub dark theme */
+  font-size: 1.1rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 10px;
+}
+
+/* Hover effect */
+.nav-dropdown .dropdown-item:hover {
+  background-color: #161b22 !important;
+  color: #fff !important;
+}
+
+.hero-separator {
+  width: 80px;
+  height: 4px;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.projects-separator {
+  width: 80px;
+  height: 4px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.projects-tagline {
+  font-size: 1.1rem;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  background-color: #111;
+  box-shadow: 0 0 40px rgba(0, 255, 140, 0.15);
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
