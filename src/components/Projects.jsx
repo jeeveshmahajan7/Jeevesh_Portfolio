@@ -18,7 +18,7 @@ const Projects = () => {
 
                 <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
                   <img
-                    src="public/images/AuraLiving_Home.png"
+                    src="/images/AuraLiving_Home.png"
                     alt="AuraLiving Project Image"
                     className="rounded-top-4 img-fluid object-fit-cover w-100 w-lg-50"
                     style={{ height: "300px" }}
@@ -57,7 +57,7 @@ const Projects = () => {
 
                 <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
                   <img
-                    src="public/images/Anvaya_Home.png"
+                    src="/images/Anvaya_Home.png"
                     alt="Anvaya Project Image"
                     className="rounded-top-4 img-fluid object-fit-cover w-100 w-lg-50"
                     style={{ height: "300px" }}
@@ -97,7 +97,7 @@ const Projects = () => {
 
                 <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
                   <img
-                    src="public/images/Meetup_Home.png"
+                    src="/images/Meetup_Home.png"
                     alt="Meetup Project Image"
                     className="rounded-top-4 img-fluid object-fit-cover w-100 w-lg-50"
                     style={{ height: "300px" }}
