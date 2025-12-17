@@ -20,7 +20,7 @@ const Projects = () => {
                   <img
                     src="/images/AuraLiving_Home.png"
                     alt="AuraLiving Project Image"
-                    className="rounded-top-4 img-fluid object-fit-cover w-100 w-lg-50"
+                    className="rounded-start-4 img-fluid object-fit-cover w-100 w-lg-50"
                     style={{ height: "300px" }}
                     loading="lazy"
                   />
@@ -59,7 +59,7 @@ const Projects = () => {
                   <img
                     src="/images/Anvaya_Home.png"
                     alt="Anvaya Project Image"
-                    className="rounded-top-4 img-fluid object-fit-cover w-100 w-lg-50"
+                    className="rounded-start-4 img-fluid object-fit-cover w-100 w-lg-50"
                     style={{ height: "300px" }}
                     loading="lazy"
                   />
@@ -99,7 +99,7 @@ const Projects = () => {
                   <img
                     src="/images/Meetup_Home.png"
                     alt="Meetup Project Image"
-                    className="rounded-top-4 img-fluid object-fit-cover w-100 w-lg-50"
+                    className="rounded-start-4 img-fluid object-fit-cover w-100 w-lg-50"
                     style={{ height: "300px" }}
                     loading="lazy"
                   />
