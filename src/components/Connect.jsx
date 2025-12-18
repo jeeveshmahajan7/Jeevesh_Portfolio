@@ -21,6 +21,7 @@ const Connect = () => {
                     rel="noopener noreferrer"
                     target="_blank"
                     className="text-decoration-none"
+                    aria-label="Mail Jeevesh Mahajan in a new tab"
                   >
                     <div className="card bg-black h-100 border-0 project-card p-4">
                       <div className="d-flex align-items-center mb-3">
@@ -40,6 +41,7 @@ const Connect = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-decoration-none"
+                    aria-label="Visit Jeevesh Mahajan's GitHub profile"
                   >
                     <div className="card bg-black h-100 border-0 project-card p-4">
                       <div className="d-flex align-items-center mb-3">
@@ -57,6 +59,7 @@ const Connect = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-decoration-none"
+                    aria-label="Visit Jeevesh Mahajan's LinkedIn profile"
                   >
                     <div className="card bg-black h-100 border-0 project-card p-4">
                       <div className="d-flex align-items-center mb-3">
@@ -74,6 +77,7 @@ const Connect = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-decoration-none"
+                    aria-label="Visit Jeevesh Mahajan's Twitter profile"
                   >
                     <div className="card bg-black h-100 border-0 project-card p-4">
                       <div className="d-flex align-items-center mb-3">

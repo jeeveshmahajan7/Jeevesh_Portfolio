@@ -29,6 +29,7 @@ const Hero = () => {
                     className="btn btn-outline-secondary px-4 py-2"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Open resume in a new tab"
                   >
                     Resume
                   </a>

@@ -20,7 +20,7 @@ const Projects = () => {
                   <div className="project-image-wrapper">
                     <img
                       src="/images/AuraLiving_Home.png"
-                      alt="AuraLiving Project Image"
+                      alt="AuraLiving e-commerce homepage showing product listings and filters"
                       className="project-image"
                       loading="lazy"
                     />
@@ -39,6 +39,7 @@ const Projects = () => {
                         href="https://aura-living-frontend.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Preview AuraLiving project (opens in a new tab)"
                       >
                         Preview <i className="bi bi-arrow-up-right"></i>
                       </a>
@@ -47,6 +48,7 @@ const Projects = () => {
                         href="https://github.com/jeeveshmahajan7/AuraLiving_Frontend"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Preview AuraLiving code on github (opens in a new tab)"
                       >
                         Source <i className="bi bi-arrow-up-right"></i>
                       </a>
@@ -60,7 +62,7 @@ const Projects = () => {
                   <div className="project-image-wrapper">
                     <img
                       src="/images/Anvaya_Home.png"
-                      alt="Anvaya Project Image"
+                      alt="Anvaya CRM homepage showing leads dashboard and leads status"
                       className="project-image"
                       loading="lazy"
                     />
@@ -80,6 +82,7 @@ const Projects = () => {
                         href="https://anvaya-gamma.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Preview Anvaya project (opens in a new tab)"
                       >
                         Preview <i className="bi bi-arrow-up-right"></i>
                       </a>
@@ -88,6 +91,7 @@ const Projects = () => {
                         href="https://github.com/jeeveshmahajan7/Anvaya"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Preview Anvaya code on github (opens in a new tab)"
                       >
                         Source <i className="bi bi-arrow-up-right"></i>
                       </a>
@@ -101,7 +105,7 @@ const Projects = () => {
                   <div className="project-image-wrapper">
                     <img
                       src="/images/Meetup_Home.png"
-                      alt="Meetup Project Image"
+                      alt="Meetup homepage image showing meetup listings"
                       className="project-image"
                       loading="lazy"
                     />
@@ -120,6 +124,7 @@ const Projects = () => {
                         href="https://meetup-app-smoky.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
+                         aria-label="Preview Meetup project (opens in a new tab)"
                       >
                         Preview <i className="bi bi-arrow-up-right"></i>
                       </a>
@@ -128,6 +133,7 @@ const Projects = () => {
                         href="https://github.com/jeeveshmahajan7/Meetup-App-Frontend"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Preview Meetup code on github (opens in a new tab)"
                       >
                         Source <i className="bi bi-arrow-up-right"></i>
                       </a>

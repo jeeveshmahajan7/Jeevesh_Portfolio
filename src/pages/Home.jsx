@@ -6,10 +6,12 @@ import Connect from "../components/Connect";
 const Home = () => {
   return (
     <>
-      <Hero />
-      <Projects />
-      <TechStack />
-      <Connect />
+      <main id="main-content">
+        <Hero />
+        <Projects />
+        <TechStack />
+        <Connect />
+      </main>
     </>
   );
 };

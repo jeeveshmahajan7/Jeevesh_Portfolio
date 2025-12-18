@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
       <div className="container">
-        <a className="navbar-brand text-light" href="#hero">
+        <a className="navbar-brand text-light" href="#main-content">
           Jeevesh Mahajan
         </a>
 
@@ -12,6 +12,7 @@ const Header = () => {
             className="btn text-light"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            aria-label="Open navigation menu"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
