@@ -17,13 +17,14 @@ const Projects = () => {
                 {/* First Project */}
 
                 <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
-                  <img
-                    src="/images/AuraLiving_Home.png"
-                    alt="AuraLiving Project Image"
-                    className="rounded-start-4 img-fluid object-fit-cover w-100 w-lg-50"
-                    style={{ height: "300px" }}
-                    loading="lazy"
-                  />
+                  <div className="project-image-wrapper">
+                    <img
+                      src="/images/AuraLiving_Home.png"
+                      alt="AuraLiving Project Image"
+                      className="project-image"
+                      loading="lazy"
+                    />
+                  </div>
                   <div className="card-body">
                     <h3 className="card-title my-4 text-primary fw-bold">
                       AuraLiving
@@ -56,13 +57,14 @@ const Projects = () => {
                 {/* Second Project */}
 
                 <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
-                  <img
-                    src="/images/Anvaya_Home.png"
-                    alt="Anvaya Project Image"
-                    className="rounded-start-4 img-fluid object-fit-cover w-100 w-lg-50"
-                    style={{ height: "300px" }}
-                    loading="lazy"
-                  />
+                  <div className="project-image-wrapper">
+                    <img
+                      src="/images/Anvaya_Home.png"
+                      alt="Anvaya Project Image"
+                      className="project-image"
+                      loading="lazy"
+                    />
+                  </div>
                   <div className="card-body">
                     <h3 className="card-title my-4 text-primary fw-bold">
                       Anvaya
@@ -96,13 +98,14 @@ const Projects = () => {
                 {/* Third Project */}
 
                 <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
-                  <img
-                    src="/images/Meetup_Home.png"
-                    alt="Meetup Project Image"
-                    className="rounded-start-4 img-fluid object-fit-cover w-100 w-lg-50"
-                    style={{ height: "300px" }}
-                    loading="lazy"
-                  />
+                  <div className="project-image-wrapper">
+                    <img
+                      src="/images/Meetup_Home.png"
+                      alt="Meetup Project Image"
+                      className="project-image"
+                      loading="lazy"
+                    />
+                  </div>
                   <div className="card-body">
                     <h3 className="card-title my-4 text-primary fw-bold">
                       Meetup
