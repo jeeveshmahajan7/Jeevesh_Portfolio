@@ -25,7 +25,7 @@ const Hero = () => {
                     Contact Me
                   </a>
                   <a
-                    href="https://drive.google.com/file/d/10KRTchyu_SRHmW8KWJlT6yj3OStoqIrt/view?usp=sharing"
+                    href="https://drive.google.com/drive/folders/1QMFrn6zO9iklNmf330cCaiipUdjdYt8B?usp=drive_link"
                     className="btn btn-outline-secondary px-4 py-2"
                     target="_blank"
                     rel="noopener noreferrer"
