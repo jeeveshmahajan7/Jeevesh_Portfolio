@@ -20,11 +20,11 @@ const Hero = () => {
                   developing scalable backend APIs and sleek, modern frontend
                   interfaces.
                 </p>
-                <div className="d-flex gap-3">
+                {/* <div className="d-flex gap-3"> */}
                   <a href="#connect" className="btn btn-success px-4 py-2">
                     Contact Me
                   </a>
-                  <a
+                  {/* <a
                     href="https://drive.google.com/drive/folders/1QMFrn6zO9iklNmf330cCaiipUdjdYt8B?usp=drive_link"
                     className="btn btn-outline-secondary px-4 py-2"
                     target="_blank"
@@ -32,8 +32,8 @@ const Hero = () => {
                     aria-label="Open resume in a new tab"
                   >
                     Resume
-                  </a>
-                </div>
+                  </a> */}
+                {/* </div> */}
               </div>
             </div>
           </div>
