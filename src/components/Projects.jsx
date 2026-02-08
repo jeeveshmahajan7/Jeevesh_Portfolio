@@ -14,7 +14,50 @@ const Projects = () => {
 
               {/* PROJECTS LIST */}
               <div className="d-flex flex-column gap-5">
-                {/* First Project */}
+                {/* Project */}
+
+                <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
+                  <div className="project-image-wrapper">
+                    <img
+                      src="/images/FlowBoard_Home.png"
+                      alt="FlowBoard homepage displaying the Dashboard with Projects and Tasks"
+                      className="project-image"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="card-body">
+                    <h3 className="card-title my-4 text-primary fw-bold">
+                      FlowBoard
+                    </h3>
+                    <p className="projects-tagline mb-0 text-secondary">
+                      A task management platform helping teams organize work,
+                      collaborate efficiently, and track progress through visual
+                      reports.
+                    </p>
+                    <div className="d-flex gap-4 pt-3">
+                      <a
+                        className="btn btn-dark bg-black border-0 px-0 project-link"
+                        href="https://flow-board-ten-gold.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Preview FlowBoard project (opens in a new tab)"
+                      >
+                        Preview <i className="bi bi-arrow-up-right"></i>
+                      </a>
+                      <a
+                        className="btn btn-dark bg-black border-0 px-0 project-link"
+                        href="https://github.com/jeeveshmahajan7/FlowBoard_Frontend.git"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Preview FlowBoard code on github (opens in a new tab)"
+                      >
+                        Source <i className="bi bi-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Project */}
 
                 <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
                   <div className="project-image-wrapper">
@@ -56,7 +99,7 @@ const Projects = () => {
                   </div>
                 </div>
 
-                {/* Second Project */}
+                {/* Project */}
 
                 <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
                   <div className="project-image-wrapper">
@@ -99,7 +142,7 @@ const Projects = () => {
                   </div>
                 </div>
 
-                {/* Third Project */}
+                {/* Project */}
 
                 <div className="card h-100 d-flex flex-column flex-lg-row border-0 bg-black rounded-4 mb-2 project-card">
                   <div className="project-image-wrapper">
@@ -124,7 +167,7 @@ const Projects = () => {
                         href="https://meetup-app-smoky.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
-                         aria-label="Preview Meetup project (opens in a new tab)"
+                        aria-label="Preview Meetup project (opens in a new tab)"
                       >
                         Preview <i className="bi bi-arrow-up-right"></i>
                       </a>
